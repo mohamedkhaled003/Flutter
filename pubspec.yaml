@@ -1,17 +1,21 @@
-name: profile_card_app
-description: A Flutter profile card using a network image.
+name: your_project_name  # Replace with your project's name
+description: A new Flutter project. # Replace with a description
+publish_to: 'none' # Prevents accidental publishing to pub.dev
 
-publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0' # Corrected SDK constraint.  IMPORTANT!
 
 dependencies:
   flutter:
     sdk: flutter
+  cached_network_image: ^3.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0  # Recommended linting package
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true # Add this line
